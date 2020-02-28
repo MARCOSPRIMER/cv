@@ -1,0 +1,180 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+}
+
+
+h1{
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  
+  font-size: 2.5rem;
+  color:  #11999E;
+  font-weight: normal;
+  margin: 50px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.intro{
+  width:80%;
+  margin: auto;
+
+}
+p{
+  line-height: 2;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+
+  
+}
+.middle-container{
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  padding-top: 100px;
+
+}
+.bottom-container{
+  background-color:#66BFBF;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #EAF6F6;
+}
+.footer-link{
+  color: #11999E;
+}
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+   
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  
+
+}
+
+.contact-me{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+
+}
+.profile-img{
+  border-radius: 80%;
+}
+.code-img{
+  border-radius: 80%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.bike-img{
+  border-radius: 80%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+.buttom-Contact {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Comic Sans MS;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+}
+.buttom-Contact:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}.buttom-Contact:active {
+	position:relative;
+	top:1px;
+}
+
+/* .code-skill-description{
+  clear: left;
+}
+.bike-skill-description{
+  clear: right;
+} */
